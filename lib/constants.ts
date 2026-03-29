@@ -1,0 +1,110 @@
+export const SITE_NAME = 'ProjectManageAnything™'
+export const SITE_URL = 'https://projectmanageanything.com'
+export const TAGLINE = 'A Global Ecosystem for Education, Empowerment, and Impact.'
+export const FOUNDER = 'Crystal Stewart, PMP®'
+export const FOUNDER_TITLE = 'The Project Management Evangelist™'
+
+export const PILLARS = [
+  {
+    number: 1,
+    name: 'Enterprise Academy™',
+    tagline: 'Education & Workforce Training',
+    icon: '🎓',
+    description: 'Professional PM certification prep, youth leadership programs, and corporate workforce training. The flagship education brand of the ecosystem.',
+    color: 'border-gold bg-light-gold',
+    textColor: 'text-gold',
+    url: 'https://enterpriseacademy.us',
+    programs: ['Life Is a Project™ (Ages 17–21)', 'PMP® Certification Prep', 'CAPM® Career Launcher', 'Veterans PM Pathway', 'Corporate PM Training'],
+    cta: 'Visit Enterprise Academy™',
+  },
+  {
+    number: 2,
+    name: 'Wiser Generations™',
+    tagline: 'PMP® & CAPM® for Adults & Veterans',
+    icon: '🏆',
+    description: 'Certification training for career transitioners, corporate teams, and veterans. Translate your experience into the credential that opens doors.',
+    color: 'border-teal bg-teal/5',
+    textColor: 'text-teal',
+    url: 'https://wisergenerations.com',
+    programs: ['PMP® Prep', 'CAPM® Career Launcher', 'Corporate Training', 'Veterans Pathway'],
+    cta: 'Visit Wiser Generations™',
+  },
+  {
+    number: 3,
+    name: 'VillageTrade™',
+    tagline: 'Community Barter & Skills Exchange',
+    icon: '🔄',
+    description: 'A digital and in-person platform for communities to exchange skills, services, and goods — building local resilience and reducing financial exclusion.',
+    color: 'border-green-600 bg-green-50',
+    textColor: 'text-green-700',
+    url: '#',
+    programs: ['Skills Exchange Network', 'Community Marketplace', 'Veterans & Seniors Dignity Program', 'Identity Verification & Safety Framework'],
+    cta: 'Coming Soon',
+  },
+  {
+    number: 4,
+    name: 'The Wealth Channel™',
+    tagline: 'Financial Education Media Network',
+    icon: '💡',
+    description: 'A media platform teaching financial literacy, wealth-building strategy, and economic empowerment — delivered through video, podcast, and live events.',
+    color: 'border-purple-600 bg-purple-50',
+    textColor: 'text-purple-700',
+    url: '#',
+    programs: ['Financial Literacy Courses', 'Wealth Channel Membership', 'Live Events & Masterclasses', 'Sponsorship & Partnerships'],
+    cta: 'Coming Soon',
+  },
+  {
+    number: 5,
+    name: 'Sacred Seasons™',
+    tagline: 'Leadership & Spiritual Formation',
+    icon: '🌿',
+    description: 'Retreats, mentorship programs, and formation experiences for leaders who want to integrate professional excellence with spiritual purpose.',
+    color: 'border-amber-600 bg-amber-50',
+    textColor: 'text-amber-700',
+    url: '#',
+    programs: ['Leadership Retreats', 'Mentorship Programs', 'Seasonal Formation Experiences', 'Faith-Integrated Leadership'],
+    cta: 'Coming Soon',
+  },
+  {
+    number: 6,
+    name: 'Goshen Publishing™',
+    tagline: 'Storytelling & Memoir Platform',
+    icon: '📖',
+    description: 'A publishing platform for community members to tell their transformational stories. Memoir writing, coaching, and publishing services for everyday authors.',
+    color: 'border-rose-600 bg-rose-50',
+    textColor: 'text-rose-700',
+    url: '#',
+    programs: ['Memoir Writing Program', 'Publishing Services', 'Community Story Archive', 'Author Coaching'],
+    cta: 'Coming Soon',
+  },
+  {
+    number: 7,
+    name: 'Sustainability & Survival Skills Institute™',
+    tagline: 'Agriculture, Arts & Resilience Training',
+    icon: '🌱',
+    description: 'Practical skills for community resilience — urban agriculture, food preservation, water purification, craftsmanship, arts, and disaster preparedness.',
+    color: 'border-lime-600 bg-lime-50',
+    textColor: 'text-lime-700',
+    url: '#',
+    programs: ['Urban Agriculture Training', 'Food Preservation', 'Disaster Preparedness', 'Arts & Cultural Preservation'],
+    cta: 'Coming Soon',
+  },
+]
+
+export const EXPANSION_CITIES = [
+  { city: 'Savannah', state: 'GA', flag: '🇺🇸' },
+  { city: 'Charleston', state: 'SC', flag: '🇺🇸' },
+  { city: 'Jacksonville', state: 'FL', flag: '🇺🇸' },
+  { city: 'Houston', state: 'TX', flag: '🇺🇸' },
+  { city: 'San Diego', state: 'CA', flag: '🇺🇸' },
+  { city: 'Lisbon', state: 'Portugal', flag: '🇵🇹' },
+  { city: 'Cape Town', state: 'South Africa', flag: '🇿🇦' },
+]
+
+export const YEAR_PLAN = [
+  { year: 'Year 1', title: 'Foundation', items: ['Launch Enterprise Academy courses', 'Start Wealth Channel media platform', 'Pilot VillageTrade network', 'Launch Goshen Publishing memoir program', 'Build website and brand infrastructure'] },
+  { year: 'Year 2', title: 'Community Expansion', items: ['Expand VillageTrade into multiple cities', 'Host Sacred Seasons retreats', 'Grow Wealth Channel audience', 'Launch sustainability workshops'] },
+  { year: 'Year 3', title: 'National Expansion', items: ['Launch certification programs', 'VillageTrade in 15+ cities', 'National media reach', 'Open sustainability hubs'] },
+  { year: 'Year 4', title: 'Global Development', items: ['International course delivery', 'Global VillageTrade chapters', 'Global author network via Goshen'] },
+  { year: 'Year 5', title: 'Global Resilience Network', items: ['500K VillageTrade members', '1M Wealth Channel audience', '100 sustainability training centers', '$1M philanthropic distribution'] },
+]
